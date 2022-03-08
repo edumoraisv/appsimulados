@@ -1,0 +1,73 @@
+.bg-clouds {
+    background-color: #f9fbfd;
+}
+.ui.inverted.blue.menu, .ui.inverted.menu .blue.active.item {
+    background-color: #01579B;
+}
+.ui.inverted.success.segment {
+    background-color: #27ae60 !important;
+}
+.ui.inverted.warning.segment {
+    background-color: #e67e22 !important;
+}
+.ui.inverted.dark.segment {
+    background-color: #34495e !important;
+}
+.ui.inverted.segment .ui.breadcrumb .divider {
+    color: white !important;
+}
+.ui.inverted.segment a {
+    text-decoration: none !important;
+}
+.ui.inverted.segment a:hover {
+    color: white !important;
+    text-decoration: underline !important;
+}
+.ui.transparent.segment {
+    background: transparent;
+}
+a[name] {
+    /* Fixed page header overlaps in-page anchors */
+    text-decoration: none;
+    padding-top: 60px;
+}
+.mono {
+    font-family: 'Roboto Mono', monospace !important;
+}.highlight {
+    background-color: #FFF9C4;
+ }
+section {
+    padding: 2em 0;
+}
+section h2 {
+    margin-bottom: 1em !important;
+}
+.index section h1 {
+    font-size: 2.75rem !important;
+    font-weight: normal !important;
+}
+.index section h2 {
+    font-weight: normal !important;
+    font-size: 2rem !important;
+}
+.questao-errada, .questao-anulada, .bg-vermelho {
+    background-color: #fbe9eb !important;
+}
+.questao-certa, .bg-verde {
+    background-color: #ecfdf0 !important;
+}
+.link {
+    cursor: pointer;
+    color: #4183c4;
+}
+.ui.fixed.menu .ui.dropdown .menu > * {
+    white-space: normal !important;
+}
+a, .ui.breadcrumb a {
+    color: inherit;
+    text-decoration: underline;
+}
+a:hover, .ui.breadcrumb a:hover {
+    color: inherit;
+    text-decoration: none;
+}
